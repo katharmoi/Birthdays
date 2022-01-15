@@ -1,0 +1,81 @@
+{
+  "results": [
+    {
+      "name": {
+        "title": "Miss",
+        "first": "Pamela",
+        "last": "Howell"
+      },
+      "dob": {
+        "date": "1980-02-26T07:16:39.510Z",
+        "age": 42
+      }
+    },
+    {
+      "name": {
+        "title": "Mr",
+        "first": "Toby",
+        "last": "Jackson"
+      },
+      "dob": {
+        "date": "1946-03-03T10:34:51.447Z",
+        "age": 76
+      }
+    },
+    {
+      "name": {
+        "title": "Mr",
+        "first": "Valdir",
+        "last": "Costa"
+      },
+      "dob": {
+        "date": "1950-12-05T23:49:50.904Z",
+        "age": 72
+      }
+    },
+    {
+      "name": {
+        "title": "Mr",
+        "first": "Sertan",
+        "last": "Gommers"
+      },
+      "dob": {
+        "date": "1981-10-09T03:52:30.372Z",
+        "age": 41
+      }
+    },
+    {
+      "name": {
+        "title": "Ms",
+        "first": "Alma",
+        "last": "Pedersen"
+      },
+      "dob": {
+        "date": "1981-02-15T00:41:24.038Z",
+        "age": 41
+      }
+    },
+    {
+      "name": {
+        "title": "Mrs",
+        "first": "Amy",
+        "last": "Roy"
+      },
+      "dob": {
+        "date": "1947-01-15T06:43:10.004Z",
+        "age": 75
+      }
+    },
+    {
+      "name": {
+        "title": "Mr",
+        "first": "George",
+        "last": "James"
+      },
+      "dob": {
+        "date": "1962-04-14T03:03:38.410Z",
+        "age": 60
+      }
+    }
+  ]
+}
