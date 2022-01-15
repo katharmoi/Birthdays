@@ -1,6 +1,6 @@
 package io.appicenter.birthdayapp.feature_birthday_list.domain.repository
 
-import io.appicenter.birthdayapp.feature_birthday_list.common.Result
+import io.appicenter.birthdayapp.common.Result
 import io.appicenter.birthdayapp.feature_birthday_list.domain.model.User
 
 /**

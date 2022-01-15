@@ -1,4 +1,4 @@
-package io.appicenter.birthdayapp.feature_birthday_list.common
+package io.appicenter.birthdayapp.common
 
 sealed class Result<out R> {
     data class Success<out T>(val data: T) : Result<T>()
