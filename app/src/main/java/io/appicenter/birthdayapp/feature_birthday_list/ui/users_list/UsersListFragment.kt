@@ -3,8 +3,10 @@ package io.appicenter.birthdayapp.feature_birthday_list.ui.users_list
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.NavHostFragment
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import dagger.hilt.android.AndroidEntryPoint
@@ -56,7 +58,16 @@ class UsersListFragment : Fragment(R.layout.fragment_user_list), OnUserClickList
     }
 
     override fun onUserClick(position: Int) {
+        NavHostFragment
+            .findNavController(this)
+            .navigate(R.id.action_usersListFragment_to_userDetailFragment,getBundle(usersAdapter.currentList[position]))
+    }
 
+    private fun getBundle(user: User): Bundle {
+        val initials = "${user.name.first.first()}${user.name.last.first()}"
+        val fullName = "${user.name.first} ${user.name.last}"
+        val age = "${user.dateOfBirth.age} YEARS OLD"
+        return bundleOf("initials" to initials, "fullName" to fullName, "age" to age)
     }
 
 

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Birthday App</string>
     <string name="birthdays_title">Birthdays</string>
+    <string name="btn_back">Go Back</string>
 </resources>

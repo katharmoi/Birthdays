@@ -7,5 +7,17 @@
     <fragment
         android:id="@+id/usersListFragment"
         android:name="io.appicenter.birthdayapp.feature_birthday_list.ui.users_list.UsersListFragment"
-        android:label="UsersListFragment" />
+        android:label="UsersListFragment" >
+        <action
+            android:id="@+id/action_usersListFragment_to_userDetailFragment"
+            app:destination="@id/userDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userDetailFragment"
+        android:name="io.appicenter.birthdayapp.feature_birthday_list.ui.user_detail.UserDetailFragment"
+        android:label="UserDetailFragment" >
+        <action
+            android:id="@+id/action_userDetailFragment_to_usersListFragment"
+            app:destination="@id/usersListFragment" />
+    </fragment>
 </navigation>
